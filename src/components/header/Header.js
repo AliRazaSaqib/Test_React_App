@@ -27,9 +27,9 @@ function Header() {
   }, [isVisible]);
   return (
     <nav
-      className={`navbar navbar-light bg-white py-3 px-xl-5 px-md-3 shadow ${classes.navbar}`}
+      className={`navbar navbar-light bg-white py-3 px-xl-5 px-md-3 px-sm-3 shadow ${classes.navbar}`}
     >
-      <div className="container-fluid position-relative">
+      <div className="container-fluid position-relative p-0">
         <a className="navbar-brand">
           <img src={airbnbIcon} height={36} />
         </a>
@@ -62,7 +62,6 @@ function Header() {
         {isVisible ? (
           <div
             className={`position-absolute bg-white shadow py-3 ${classes.porfileDropdown}`}
-            ref={ref}
           >
             <ul className="p-0 m-0">
               <label

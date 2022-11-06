@@ -21,3 +21,7 @@ h4 {
   border-top: 1px solid lightgray;
   padding-top: 18px;
 }
+
+.footerRow {
+  row-gap: 24px !important;
+}

@@ -1,0 +1,39 @@
+.heading {
+  font-family: "Poppins";
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.sliderContainer {
+  z-index: 999;
+}
+
+.sliderScrollEffect {
+  overflow-x: auto;
+}
+
+.sliderScrollEffect::-webkit-scrollbar {
+  display: none;
+}
+
+.sliderScrollEffect img {
+  object-fit: cover;
+  height: 250px;
+  width: 350px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardsContainer {
+  flex-wrap: unset;
+  gap: 24px;
+}
+
+.card {
+  background-image: url(../../assets/banner_1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 12px;
+  height: 300px;
+}

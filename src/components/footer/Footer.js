@@ -5,12 +5,12 @@ const classes = { ...globalStyles, ...footerStyles };
 
 export default function Footer() {
   return (
-    <div className="position-relative vh-100">
+    <div className="position-relative vh-150">
       <div
-        className={`mt-5 pt-5 pb-5 position-absolute bottom-0 w-100 text-dark py-3 px-xl-5 px-md-3 ${classes.footerBg}`}
+        className={`mt-5 pt-5 pb-5 position-absolute w-100 text-dark py-3 px-xl-5 px-md-3 px-sm-3 ${classes.footerBg}`}
       >
         <div className="container-fluid ">
-          <div className="row">
+          <div className={`row ${classes.footerRow}`}>
             <div className="col-lg-3 col-xs-12 links">
               <h4 className="mt-lg-0 mt-sm-3">Support</h4>
               <ul className="m-0 p-0">
