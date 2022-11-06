@@ -31,3 +31,10 @@
 .porfileDropdown ul li:hover {
   background-color: #f1f1f1;
 }
+
+@media (max-width: 576px) {
+  .navbar {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
